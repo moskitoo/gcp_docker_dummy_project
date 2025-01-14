@@ -5,7 +5,7 @@ steps:
     'build',
     '.',
     '-t',
-    'europe-west1-docker.pkg.dev/$PROJECT_ID/my-container-registry/test-container-3',
+    'europe-west1-docker.pkg.dev/$PROJECT_ID/my-container-registry/test-container-4',
     '-f',
     'Dockerfile'
   ]
@@ -13,7 +13,7 @@ steps:
   id: 'Push container image'
   args: [
     'push',
-    'europe-west1-docker.pkg.dev/$PROJECT_ID/my-container-registry/test-container-3'
+    'europe-west1-docker.pkg.dev/$PROJECT_ID/my-container-registry/test-container-4'
   ]
 options:
   logging: CLOUD_LOGGING_ONLY
